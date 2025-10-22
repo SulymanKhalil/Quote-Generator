@@ -1,0 +1,17 @@
+{
+  "name": "chat-simulator",
+  "version": "1.0.0",
+  "description": "Simple TypeScript chat simulator",
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

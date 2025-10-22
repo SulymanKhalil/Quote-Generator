@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  #app {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #app:hover {
+    transform: translateY(-5px);
+  }
+  
+  #quote {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #f1f1f1;
+  }
+  
+  #author {
+    font-size: 1rem;
+    color: #cfcfcf;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    background: #00b894;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin: 0.1rem;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #019870;
+    transform: translateY(-2px);
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  #copy-btn {
+    background: #86bae3;
+  }
+  
+  #share-btn-X {
+    background: #000000;
+  }
+  
+  #share-btn-FB {
+    background: #1877f2;
+  }
+  
+  #share-btn-WA {
+    background: #25d366;
+  }
+  
+ /***************** Medias ***************/
+  @media (max-width: 480px) {
+    #app {
+      padding: 1.5rem;
+    }
+  
+    #quote {
+      font-size: 1.1rem;
+    }
+  
+    button {
+      width: 100%;
+      margin: 0.4rem 0;
+    }
+  }
+  
