@@ -24,7 +24,7 @@ getQuotebtn.addEventListener("click", async () => {
     getQuotebtn.disabled = false
 
     copyBtn.style.display = "inline-block";
-    copyBtn.textContent = "Copy";
+    copyBtn.innerHTML= `Copy <i class="fa-regular fa-copy"></i>`;
     shareBtnX.style.display = "inline-block"
     shareBtnFB.style.display = "inline-block"
     shareBtnWA.style.display = "inline-block"
